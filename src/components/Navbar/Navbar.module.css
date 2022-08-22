@@ -1,0 +1,44 @@
+.nav {
+    grid-area: n;
+    background-color: #242582;
+    padding: 20px;
+}
+
+/* ---------------------------------- */
+.item a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease 0s;
+    letter-spacing: 0.6px;
+
+}
+
+
+
+.item :hover {
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+}
+
+/* ----------------------------- */
+.item.active {
+    color: blueviolet;
+}
+/*-------------------------------------*/
+.users a{
+    text-decoration: none;
+    transition: background-color 0.3s ease 0s;
+    letter-spacing: 0.6px;
+
+}
+
+.users :hover{
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+}
+
+.users.active {
+    color: blueviolet;
+}
+.users{
+    padding: 30px 0px 0px 0px;
+}
+
